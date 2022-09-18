@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6E18C6ED28C31EB300B57459 /* WalletConnectSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6E18C6EC28C31EB300B57459 /* WalletConnectSwift */; };
+		6E18C6EF28C320F500B57459 /*  WalletConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E18C6EE28C320F500B57459 /*  WalletConnect.swift */; };
+		6E1D04D328D5B49700221061 /* RollexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1D04D228D5B49700221061 /* RollexView.swift */; };
+		6E4A73D528C95117002801A1 /* GasView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E4A73D428C95117002801A1 /* GasView.swift */; };
+		6E815AF428D0ECBD0027A0EE /* web3swift in Frameworks */ = {isa = PBXBuildFile; productRef = 6E815AF328D0ECBD0027A0EE /* web3swift */; };
+		6E815AFB28D0ED5C0027A0EE /* Networks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E815AF628D0ED5C0027A0EE /* Networks.swift */; };
+		6E815AFC28D0ED5C0027A0EE /* ProjectContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E815AF728D0ED5C0027A0EE /* ProjectContract.swift */; };
+		6E815AFD28D0ED5C0027A0EE /* ContractCompoents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E815AF828D0ED5C0027A0EE /* ContractCompoents.swift */; };
+		6E815AFE28D0ED5C0027A0EE /* Wallet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E815AF928D0ED5C0027A0EE /* Wallet.swift */; };
+		6E815AFF28D0ED5C0027A0EE /* ContractHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E815AFA28D0ED5C0027A0EE /* ContractHelpers.swift */; };
+		6E996BE428C2D97F00E97780 /* Hack_VelasApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E996BE328C2D97F00E97780 /* Hack_VelasApp.swift */; };
+		6E996BE628C2D97F00E97780 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E996BE528C2D97F00E97780 /* ContentView.swift */; };
+		6E996BE828C2D98200E97780 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E996BE728C2D98200E97780 /* Assets.xcassets */; };
+		6E996BEB28C2D98200E97780 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E996BEA28C2D98200E97780 /* Preview Assets.xcassets */; };
+		6E996BF528C2D98200E97780 /* Hack_VelasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E996BF428C2D98200E97780 /* Hack_VelasTests.swift */; };
+		6E996BFF28C2D98200E97780 /* Hack_VelasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E996BFE28C2D98200E97780 /* Hack_VelasUITests.swift */; };
+		6E996C0128C2D98200E97780 /* Hack_VelasUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E996C0028C2D98200E97780 /* Hack_VelasUITestsLaunchTests.swift */; };
+		6E996C0F28C2DAB300E97780 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E996C0E28C2DAB300E97780 /* Model.swift */; };
+		6E996C1328C2DFCC00E97780 /* Modifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E996C1228C2DFCC00E97780 /* Modifier.swift */; };
+		6E996C1528C2EEDF00E97780 /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E996C1428C2EEDF00E97780 /* InfoView.swift */; };
+		6E996C1728C2EF8F00E97780 /* SendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E996C1628C2EF8F00E97780 /* SendView.swift */; };
+		6E996C1928C2EFC100E97780 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E996C1828C2EFC100E97780 /* ListView.swift */; };
+		6E996C1C28C2F57F00E97780 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 6E996C1B28C2F57F00E97780 /* CodeScanner */; };
+		6E996C1E28C2F5BB00E97780 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E996C1D28C2F5BB00E97780 /* QRCodeView.swift */; };
+		6EBB065928C44827003480D9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6EBB065828C44827003480D9 /* GoogleService-Info.plist */; };
+		6EBB065C28C448D5003480D9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6EBB065B28C448D5003480D9 /* FirebaseFirestore */; };
+		6EBB065E28C448D5003480D9 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 6EBB065D28C448D5003480D9 /* FirebaseFirestoreSwift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6E996BF128C2D98200E97780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E996BD828C2D97F00E97780 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E996BDF28C2D97F00E97780;
+			remoteInfo = Hack_Velas;
+		};
+		6E996BFB28C2D98200E97780 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6E996BD828C2D97F00E97780 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6E996BDF28C2D97F00E97780;
+			remoteInfo = Hack_Velas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6E18C6EE28C320F500B57459 /*  WalletConnect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " WalletConnect.swift"; sourceTree = "<group>"; };
+		6E1D04D228D5B49700221061 /* RollexView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RollexView.swift; sourceTree = "<group>"; };
+		6E4A73D428C95117002801A1 /* GasView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasView.swift; sourceTree = "<group>"; };
+		6E815AF628D0ED5C0027A0EE /* Networks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networks.swift; sourceTree = "<group>"; };
+		6E815AF728D0ED5C0027A0EE /* ProjectContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProjectContract.swift; sourceTree = "<group>"; };
+		6E815AF828D0ED5C0027A0EE /* ContractCompoents.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContractCompoents.swift; sourceTree = "<group>"; };
+		6E815AF928D0ED5C0027A0EE /* Wallet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wallet.swift; sourceTree = "<group>"; };
+		6E815AFA28D0ED5C0027A0EE /* ContractHelpers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContractHelpers.swift; sourceTree = "<group>"; };
+		6E996BE028C2D97F00E97780 /* Hack_Velas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hack_Velas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E996BE328C2D97F00E97780 /* Hack_VelasApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hack_VelasApp.swift; sourceTree = "<group>"; };
+		6E996BE528C2D97F00E97780 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6E996BE728C2D98200E97780 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6E996BEA28C2D98200E97780 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6E996BF028C2D98200E97780 /* Hack_VelasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hack_VelasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E996BF428C2D98200E97780 /* Hack_VelasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hack_VelasTests.swift; sourceTree = "<group>"; };
+		6E996BFA28C2D98200E97780 /* Hack_VelasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Hack_VelasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6E996BFE28C2D98200E97780 /* Hack_VelasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hack_VelasUITests.swift; sourceTree = "<group>"; };
+		6E996C0028C2D98200E97780 /* Hack_VelasUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hack_VelasUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6E996C0E28C2DAB300E97780 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		6E996C1228C2DFCC00E97780 /* Modifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifier.swift; sourceTree = "<group>"; };
+		6E996C1428C2EEDF00E97780 /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		6E996C1628C2EF8F00E97780 /* SendView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendView.swift; sourceTree = "<group>"; };
+		6E996C1828C2EFC100E97780 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		6E996C1D28C2F5BB00E97780 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
+		6EBB065828C44827003480D9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6E996BDD28C2D97F00E97780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E18C6ED28C31EB300B57459 /* WalletConnectSwift in Frameworks */,
+				6E815AF428D0ECBD0027A0EE /* web3swift in Frameworks */,
+				6E996C1C28C2F57F00E97780 /* CodeScanner in Frameworks */,
+				6EBB065C28C448D5003480D9 /* FirebaseFirestore in Frameworks */,
+				6EBB065E28C448D5003480D9 /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E996BED28C2D98200E97780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E996BF728C2D98200E97780 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6E815AF528D0ECE20027A0EE /* Web3 */ = {
+			isa = PBXGroup;
+			children = (
+				6E815AF828D0ED5C0027A0EE /* ContractCompoents.swift */,
+				6E815AFA28D0ED5C0027A0EE /* ContractHelpers.swift */,
+				6E815AF628D0ED5C0027A0EE /* Networks.swift */,
+				6E815AF728D0ED5C0027A0EE /* ProjectContract.swift */,
+				6E815AF928D0ED5C0027A0EE /* Wallet.swift */,
+			);
+			path = Web3;
+			sourceTree = "<group>";
+		};
+		6E996BD728C2D97F00E97780 = {
+			isa = PBXGroup;
+			children = (
+				6E996BE228C2D97F00E97780 /* Hack_Velas */,
+				6E996BF328C2D98200E97780 /* Hack_VelasTests */,
+				6E996BFD28C2D98200E97780 /* Hack_VelasUITests */,
+				6E996BE128C2D97F00E97780 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6E996BE128C2D97F00E97780 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E996BE028C2D97F00E97780 /* Hack_Velas.app */,
+				6E996BF028C2D98200E97780 /* Hack_VelasTests.xctest */,
+				6E996BFA28C2D98200E97780 /* Hack_VelasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6E996BE228C2D97F00E97780 /* Hack_Velas */ = {
+			isa = PBXGroup;
+			children = (
+				6E996BE328C2D97F00E97780 /* Hack_VelasApp.swift */,
+				6E996C1028C2DCF900E97780 /* View */,
+				6E996C1128C2DD0A00E97780 /* ModelView */,
+				6E996C0D28C2DA7400E97780 /* Model */,
+				6E815AF528D0ECE20027A0EE /* Web3 */,
+				6E996BE728C2D98200E97780 /* Assets.xcassets */,
+				6EBB065828C44827003480D9 /* GoogleService-Info.plist */,
+				6E996BE928C2D98200E97780 /* Preview Content */,
+			);
+			path = Hack_Velas;
+			sourceTree = "<group>";
+		};
+		6E996BE928C2D98200E97780 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6E996BEA28C2D98200E97780 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6E996BF328C2D98200E97780 /* Hack_VelasTests */ = {
+			isa = PBXGroup;
+			children = (
+				6E996BF428C2D98200E97780 /* Hack_VelasTests.swift */,
+			);
+			path = Hack_VelasTests;
+			sourceTree = "<group>";
+		};
+		6E996BFD28C2D98200E97780 /* Hack_VelasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6E996BFE28C2D98200E97780 /* Hack_VelasUITests.swift */,
+				6E996C0028C2D98200E97780 /* Hack_VelasUITestsLaunchTests.swift */,
+			);
+			path = Hack_VelasUITests;
+			sourceTree = "<group>";
+		};
+		6E996C0D28C2DA7400E97780 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				6E996C0E28C2DAB300E97780 /* Model.swift */,
+				6E996C1228C2DFCC00E97780 /* Modifier.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6E996C1028C2DCF900E97780 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6E996BE528C2D97F00E97780 /* ContentView.swift */,
+				6E996C1D28C2F5BB00E97780 /* QRCodeView.swift */,
+				6E996C1628C2EF8F00E97780 /* SendView.swift */,
+				6E996C1828C2EFC100E97780 /* ListView.swift */,
+				6E996C1428C2EEDF00E97780 /* InfoView.swift */,
+				6E4A73D428C95117002801A1 /* GasView.swift */,
+				6E1D04D228D5B49700221061 /* RollexView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6E996C1128C2DD0A00E97780 /* ModelView */ = {
+			isa = PBXGroup;
+			children = (
+				6E18C6EE28C320F500B57459 /*  WalletConnect.swift */,
+			);
+			path = ModelView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6E996BDF28C2D97F00E97780 /* Hack_Velas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E996C0428C2D98200E97780 /* Build configuration list for PBXNativeTarget "Hack_Velas" */;
+			buildPhases = (
+				6E996BDC28C2D97F00E97780 /* Sources */,
+				6E996BDD28C2D97F00E97780 /* Frameworks */,
+				6E996BDE28C2D97F00E97780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hack_Velas;
+			packageProductDependencies = (
+				6E996C1B28C2F57F00E97780 /* CodeScanner */,
+				6E18C6EC28C31EB300B57459 /* WalletConnectSwift */,
+				6EBB065B28C448D5003480D9 /* FirebaseFirestore */,
+				6EBB065D28C448D5003480D9 /* FirebaseFirestoreSwift */,
+				6E815AF328D0ECBD0027A0EE /* web3swift */,
+			);
+			productName = Hack_Velas;
+			productReference = 6E996BE028C2D97F00E97780 /* Hack_Velas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6E996BEF28C2D98200E97780 /* Hack_VelasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E996C0728C2D98200E97780 /* Build configuration list for PBXNativeTarget "Hack_VelasTests" */;
+			buildPhases = (
+				6E996BEC28C2D98200E97780 /* Sources */,
+				6E996BED28C2D98200E97780 /* Frameworks */,
+				6E996BEE28C2D98200E97780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E996BF228C2D98200E97780 /* PBXTargetDependency */,
+			);
+			name = Hack_VelasTests;
+			productName = Hack_VelasTests;
+			productReference = 6E996BF028C2D98200E97780 /* Hack_VelasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6E996BF928C2D98200E97780 /* Hack_VelasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E996C0A28C2D98200E97780 /* Build configuration list for PBXNativeTarget "Hack_VelasUITests" */;
+			buildPhases = (
+				6E996BF628C2D98200E97780 /* Sources */,
+				6E996BF728C2D98200E97780 /* Frameworks */,
+				6E996BF828C2D98200E97780 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6E996BFC28C2D98200E97780 /* PBXTargetDependency */,
+			);
+			name = Hack_VelasUITests;
+			productName = Hack_VelasUITests;
+			productReference = 6E996BFA28C2D98200E97780 /* Hack_VelasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6E996BD828C2D97F00E97780 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6E996BDF28C2D97F00E97780 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6E996BEF28C2D98200E97780 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6E996BDF28C2D97F00E97780;
+					};
+					6E996BF928C2D98200E97780 = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6E996BDF28C2D97F00E97780;
+					};
+				};
+			};
+			buildConfigurationList = 6E996BDB28C2D97F00E97780 /* Build configuration list for PBXProject "Hack_Velas" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6E996BD728C2D97F00E97780;
+			packageReferences = (
+				6E996C1A28C2F57F00E97780 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+				6E18C6EB28C31EB300B57459 /* XCRemoteSwiftPackageReference "WalletConnectSwift" */,
+				6EBB065A28C448D5003480D9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				6E815AF228D0ECBD0027A0EE /* XCRemoteSwiftPackageReference "web3swift" */,
+			);
+			productRefGroup = 6E996BE128C2D97F00E97780 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6E996BDF28C2D97F00E97780 /* Hack_Velas */,
+				6E996BEF28C2D98200E97780 /* Hack_VelasTests */,
+				6E996BF928C2D98200E97780 /* Hack_VelasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6E996BDE28C2D97F00E97780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E996BEB28C2D98200E97780 /* Preview Assets.xcassets in Resources */,
+				6E996BE828C2D98200E97780 /* Assets.xcassets in Resources */,
+				6EBB065928C44827003480D9 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E996BEE28C2D98200E97780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E996BF828C2D98200E97780 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E996BDC28C2D97F00E97780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E815AFF28D0ED5C0027A0EE /* ContractHelpers.swift in Sources */,
+				6E996C1328C2DFCC00E97780 /* Modifier.swift in Sources */,
+				6E996C1728C2EF8F00E97780 /* SendView.swift in Sources */,
+				6E996C0F28C2DAB300E97780 /* Model.swift in Sources */,
+				6E996BE628C2D97F00E97780 /* ContentView.swift in Sources */,
+				6E996C1E28C2F5BB00E97780 /* QRCodeView.swift in Sources */,
+				6E815AFD28D0ED5C0027A0EE /* ContractCompoents.swift in Sources */,
+				6E996C1528C2EEDF00E97780 /* InfoView.swift in Sources */,
+				6E4A73D528C95117002801A1 /* GasView.swift in Sources */,
+				6E815AFE28D0ED5C0027A0EE /* Wallet.swift in Sources */,
+				6E996BE428C2D97F00E97780 /* Hack_VelasApp.swift in Sources */,
+				6E996C1928C2EFC100E97780 /* ListView.swift in Sources */,
+				6E1D04D328D5B49700221061 /* RollexView.swift in Sources */,
+				6E815AFC28D0ED5C0027A0EE /* ProjectContract.swift in Sources */,
+				6E815AFB28D0ED5C0027A0EE /* Networks.swift in Sources */,
+				6E18C6EF28C320F500B57459 /*  WalletConnect.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E996BEC28C2D98200E97780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E996BF528C2D98200E97780 /* Hack_VelasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E996BF628C2D98200E97780 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E996BFF28C2D98200E97780 /* Hack_VelasUITests.swift in Sources */,
+				6E996C0128C2D98200E97780 /* Hack_VelasUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6E996BF228C2D98200E97780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E996BDF28C2D97F00E97780 /* Hack_Velas */;
+			targetProxy = 6E996BF128C2D98200E97780 /* PBXContainerItemProxy */;
+		};
+		6E996BFC28C2D98200E97780 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6E996BDF28C2D97F00E97780 /* Hack_Velas */;
+			targetProxy = 6E996BFB28C2D98200E97780 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6E996C0228C2D98200E97780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6E996C0328C2D98200E97780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6E996C0528C2D98200E97780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hack_Velas/Preview Content\"";
+				DEVELOPMENT_TEAM = 2FYTR3E5Q9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera to scan QR code";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IvanDosev.Hack-Velas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6E996C0628C2D98200E97780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Hack_Velas/Preview Content\"";
+				DEVELOPMENT_TEAM = 2FYTR3E5Q9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera to scan QR code";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IvanDosev.Hack-Velas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6E996C0828C2D98200E97780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FYTR3E5Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IvanDosev.Hack-VelasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hack_Velas.app/Hack_Velas";
+			};
+			name = Debug;
+		};
+		6E996C0928C2D98200E97780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FYTR3E5Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IvanDosev.Hack-VelasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hack_Velas.app/Hack_Velas";
+			};
+			name = Release;
+		};
+		6E996C0B28C2D98200E97780 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FYTR3E5Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IvanDosev.Hack-VelasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hack_Velas;
+			};
+			name = Debug;
+		};
+		6E996C0C28C2D98200E97780 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2FYTR3E5Q9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "IvanDosev.Hack-VelasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hack_Velas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6E996BDB28C2D97F00E97780 /* Build configuration list for PBXProject "Hack_Velas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E996C0228C2D98200E97780 /* Debug */,
+				6E996C0328C2D98200E97780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E996C0428C2D98200E97780 /* Build configuration list for PBXNativeTarget "Hack_Velas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E996C0528C2D98200E97780 /* Debug */,
+				6E996C0628C2D98200E97780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E996C0728C2D98200E97780 /* Build configuration list for PBXNativeTarget "Hack_VelasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E996C0828C2D98200E97780 /* Debug */,
+				6E996C0928C2D98200E97780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E996C0A28C2D98200E97780 /* Build configuration list for PBXNativeTarget "Hack_VelasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E996C0B28C2D98200E97780 /* Debug */,
+				6E996C0C28C2D98200E97780 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6E18C6EB28C31EB300B57459 /* XCRemoteSwiftPackageReference "WalletConnectSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WalletConnect/WalletConnectSwift.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		6E815AF228D0ECBD0027A0EE /* XCRemoteSwiftPackageReference "web3swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/skywinder/web3swift.git";
+			requirement = {
+				branch = develop;
+				kind = branch;
+			};
+		};
+		6E996C1A28C2F57F00E97780 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		6EBB065A28C448D5003480D9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6E18C6EC28C31EB300B57459 /* WalletConnectSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E18C6EB28C31EB300B57459 /* XCRemoteSwiftPackageReference "WalletConnectSwift" */;
+			productName = WalletConnectSwift;
+		};
+		6E815AF328D0ECBD0027A0EE /* web3swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E815AF228D0ECBD0027A0EE /* XCRemoteSwiftPackageReference "web3swift" */;
+			productName = web3swift;
+		};
+		6E996C1B28C2F57F00E97780 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E996C1A28C2F57F00E97780 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+		6EBB065B28C448D5003480D9 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6EBB065A28C448D5003480D9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		6EBB065D28C448D5003480D9 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6EBB065A28C448D5003480D9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 6E996BD828C2D97F00E97780 /* Project object */;
+}

@@ -1,0 +1,24 @@
+{
+    "fileFormatVersion": "1.0.0",
+    "itemInfoEntries": {
+        "11CDEC5B-D714-4252-A5F4-97EFD867F2CC": {
+            "author": "com.apple.CoreML",
+            "description": "External FeatureDescription Overlay",
+            "name": "FeatureDescriptions.json",
+            "path": "com.apple.CoreML/FeatureDescriptions.json"
+        },
+        "217F15B3-2DE3-4917-A37B-2BB21F508075": {
+            "author": "com.apple.CoreML",
+            "description": "CoreML Model Specification",
+            "name": "ProgrammingLanguageClassifier.mlmodel",
+            "path": "com.apple.CoreML/ProgrammingLanguageClassifier.mlmodel"
+        },
+        "BECEE436-326B-4F9B-98FA-66E19299172D": {
+            "author": "com.apple.CoreML",
+            "description": "External Metadata Overlay",
+            "name": "Metadata.json",
+            "path": "com.apple.CoreML/Metadata.json"
+        }
+    },
+    "rootModelIdentifier": "217F15B3-2DE3-4917-A37B-2BB21F508075"
+}
